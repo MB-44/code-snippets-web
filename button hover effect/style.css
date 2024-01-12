@@ -1,0 +1,48 @@
+/* keep this body styles if u want */
+
+body {
+    background-color:#0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    font-family: 'Monsterrat', sans-serif;
+    overflow: hidden;
+    margin: 0;
+    height: 100vh;
+}
+
+.container {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    min-height: 90vh;
+}
+
+
+.submit-button {
+    color: #fff;
+    background-color: #000;
+    width: 100px;
+    height:35px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    font-family: monospace;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 5px;
+
+    /* bg color transition */
+    transition: background-color 0.5s ease, color 0.5s ease;
+
+    /* box shadow */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.submit-button:hover {
+    background-color: #fff;
+    color: #000;
+}
