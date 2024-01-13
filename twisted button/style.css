@@ -1,0 +1,11 @@
+body {
+    background-color: rgb(38, 38, 38);
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 90vh;
+}
+
