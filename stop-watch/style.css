@@ -2,21 +2,69 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgb(255, 255, 255);
+    background-color: hsl(210, 5%, 93%);
 }
-
-.stop-watch {
-    border: 1px;
-    border-radius: 5px;
-    box-shadow: 10px;
-    background-color: rgb(87, 89, 90);
-    width: 50%;
-    height: 20%;
-    justify-content: center;
-}
-
 
 .heading {
-    color: white;
+    font-size: 4rem;
+    font-family: "Arial", sans-serif;
+    color: rgb(99, 99, 99);
     align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    border: 5px solid;
+    border-radius: 40px;
+    background-color: white;
+}
+
+.display {
+    font-size: 5rem;
+    font-family: monospace;
+    font-weight: bold;
+    color: hsl(0, 0%, 30%);
+    text-shadow: 2px 2px 2px hsl(0, 0%, 0.75);
+    margin-bottom: 25px;
+}
+
+.controls button {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 5px;
+    min-width: 125px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    transition: background-color 0.5s ease;
+}
+
+/* start button */
+.start-bt {
+    background-color: rgb(7, 169, 7);
+    /* transition: background-color 0.5ms ease-in; */
+}
+.start-bt:hover {
+    background-color: rgb(68, 68, 68);
+}
+
+/* stop button  */
+.stop-bt {
+    background-color: rgb(227, 61, 61);
+}
+.stop-bt:hover {
+    background-color: rgb(68, 68, 68);
+}
+
+/* reset button */
+.reset-bt {
+    background-color: rgb(75, 75, 228);
+}
+.reset-bt:hover {
+    background-color: rgb(68, 68, 68);
 }
