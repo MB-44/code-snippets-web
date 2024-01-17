@@ -4,22 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Form</title>
+    <link rel="stylesheet" href="./style.css">
+    
 </head>
 <body>
-    <div className="container">
-        <h2>login</h2>
-        <form action="" className="login-form">
-            <input type="text" placeholder="email"/><br />
-            <input type="text" placeholder="password"/><br />
-            <div className="remember-me">
-                <input type="checkbox" id="remember-me" className="checkbox-remember-me"/>
-                <label htmlFor="remember-me" className="remember-me-label">
-                    <span className="checkbox-span"></span>
+    <div class="container">
+        <h2>Login form</h2>
+        <form action="" class="login-form">
+            <div class="input-bt">
+                <input type="text" placeholder="email"/><br />
+                <input type="text" placeholder="password"/><br />
+            </div>
+            <div class="remember-me">
+                <input type="checkbox" id="remember-me" class="checkbox-remember-me"/>
+                <label htmlFor="remember-me" class="remember-me-label">
+                    <span class="checkbox-span"></span>
                     Remember me
                 </label>
             </div>
-                <button type="submit" className="login-button">
+                <button type="submit" class="login-button">
                     Sign In
                 </button>
+        </form>
+    </div>
 </body>
 </html>
