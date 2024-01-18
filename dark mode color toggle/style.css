@@ -1,0 +1,19 @@
+body {
+    .dark-mode {
+        display: inline-block;
+        font-size: 2rem;
+        padding: 1rem 1rem 0.75rem 1rem;
+        cursor: pointer;
+    
+        .light, .dark {
+            display: none;
+        }
+    }
+
+    &.dark .dark-mode .light {
+        &:not(.dark) .dark-mode .dark {
+            display: inline-block;
+        }
+    }
+
+}
